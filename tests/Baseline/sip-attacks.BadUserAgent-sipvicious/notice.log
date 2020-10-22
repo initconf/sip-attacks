@@ -1,0 +1,34 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2020-05-11-19-07-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	dropped
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	string	string	string	double	double	bool
+1565939098.345912	-	80.82.77.20	5274	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.82.77.20	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565944600.474341	-	77.247.108.160	5256	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.160	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565945786.212262	-	185.53.88.44	5173	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	185.53.88.44	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565947986.715963	-	77.247.108.176	5136	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565950074.869126	-	77.247.108.176	5135	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565951706.468642	-	80.82.77.20	5084	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.82.77.20	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565952271.269973	-	185.53.88.41	5121	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	185.53.88.41	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565953384.019624	-	183.2.202.41	5079	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	183.2.202.41	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565955809.330713	-	77.247.108.160	5421	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.160	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565960872.601097	-	77.247.108.176	5129	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565961212.255776	-	185.53.88.41	5119	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	185.53.88.41	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565963007.605834	-	77.247.108.176	5104	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565971685.166741	-	80.211.246.46	5087	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.211.246.46	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565971823.564969	-	185.53.88.41	5105	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	185.53.88.41	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565973749.765294	-	77.247.108.176	5123	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565975961.654030	-	77.247.108.176	5083	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565976644.963327	-	80.82.77.20	5254	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.82.77.20	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565980384.645190	-	185.53.88.44	5151	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	185.53.88.44	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565982439.092458	-	77.247.108.160	5419	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.160	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565985223.144093	-	51.158.103.144	5963	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	51.158.103.144	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565987477.494484	-	77.247.108.176	5157	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	77.247.108.176	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565987959.144286	-	217.61.60.71	5157	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	217.61.60.71	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565989129.923143	-	80.82.77.20	5462	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.82.77.20	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565994280.110461	-	183.2.202.42	5082	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	183.2.202.42	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+1565994503.374213	-	142.44.203.48	5064	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	142.44.203.48	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+#close	2020-05-11-19-07-37

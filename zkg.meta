@@ -1,0 +1,6 @@
+[package]
+description=sip-attacks
+script_dir = scripts
+version = 0.1 
+tags = sip, voip 
+test_command = ( cd tests && btest -d )
