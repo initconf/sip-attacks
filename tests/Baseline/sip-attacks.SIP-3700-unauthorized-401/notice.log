@@ -3,8 +3,8 @@
 #empty_field	(empty)
 #unset_field	-
 #path	notice
-#open	2020-05-11-19-07-38
+#open	2020-10-22-23-59-18
 #fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude	dropped
 #types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	string	string	string	double	double	bool
-1515989011.284952	-	37.8.44.2	14622	131.243.4.100	5060	-	-	-	udp	SIP::Code_401_403	SIP bruteforce: 401-403 Forbidden	-	37.8.44.2	131.243.4.100	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
-#close	2020-05-11-19-07-38
+1515989011.284952	-	40.129.198.250	14622	157.147.97.131	5060	-	-	-	udp	SIP::Code_401_403	SIP bruteforce: 401-403 Forbidden	-	40.129.198.250	157.147.97.131	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+#close	2020-10-22-23-59-18
