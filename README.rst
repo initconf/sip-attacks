@@ -26,11 +26,14 @@ Heuristics  are simple: check for
 
 This should generate following Kinds of notices:
 
-	- SIPG-3700 
+- SIP::BadUserAgent
+- SIP::Code_401_403
 
 Example Alert: 
 ***************************
-1) 1515989011.284952       -       37.8.44.2       14622   a.b.c.d   5060    -       -       -       udp     SIP::Code_401_403       SIP bruteforce: 401-403 Forbidden       -       37.8.44.2       a.b.c.d       5060    -       -       Notice::ACTION_LOG,Notice::ACTION_DROP  3600.000000     -       -       -       -       -       F:1,
+::
 
+1) 1515989011.284952	-	37.8.44.2	14622	131.243.4.100	5060	-	-	-	udp	SIP::Code_401_403	SIP bruteforce: 401-403 Forbidden	-	37.8.44.2	131.243.4.100	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
 
-2) 1565939098.345912       -       80.82.77.20     5274    131.243.0.1     5060    -       -       -       udp     SIP::BadUserAgent       Sipvicious Scan seen    -       80.82.77.20     131.243.0.1     5060-       -       Notice::ACTION_LOG,Notice::ACTION_DROP  3600.000000     -       -       -       -       -       F 
+2) 1565939098.345912	-	80.82.77.20	5274	131.243.0.1	5060	-	-	-	udp	SIP::BadUserAgent	Sipvicious Scan seen	-	80.82.77.20	131.243.0.1	5060	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+
