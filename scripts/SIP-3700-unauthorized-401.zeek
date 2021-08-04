@@ -80,9 +80,6 @@ event SIP::m_w_add_sip_scanner(ip: addr)
 
 function sip_401_403 (cid: conn_id)
 {
-
-	print fmt ("here here"); 
-
 	local src = cid$orig_h ; 
 
 	if (src !in sip_scanners)
